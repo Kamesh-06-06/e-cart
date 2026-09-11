@@ -99,9 +99,10 @@ function Navbar() {
           {/* Icons + Login */}
           <div className="flex items-center justify-between">
             <div className="flex gap-4">
-              <button>
-                <i className="bi bi-cart text-xl"></i>
-              </button>
+            <button onClick={() => navigate("/cart")}>
+                  <i className="bi bi-cart text-xl cursor-pointer"></i>
+          </button>
+
               <button>
                 <i className="bi bi-suit-heart-fill text-xl text-red-500"></i>
               </button>
