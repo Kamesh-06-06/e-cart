@@ -105,7 +105,7 @@ function Product() {
               className="bg-white rounded-xl shadow-md hover:shadow-xl transition duration-300"
             >
               {/* Image */}
-              <div className="w-full h-48 sm:h-56 md:h-60 overflow-hidden rounded-t-xl">
+              <div className="w-full h-36 sm:h-56 md:h-60 overflow-hidden rounded-t-xl">
                 <img
                   src={item.image}
                   alt={item.name}
