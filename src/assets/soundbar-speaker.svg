@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="rgbRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="coneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <filter id="barShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#020617" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Main Soundbar Chassis -->
+  <g filter="url(#barShadow)">
+    <rect x="50" y="150" width="300" height="100" rx="20" fill="url(#barGrad)" stroke="#334155" stroke-width="2" />
+  </g>
+
+  <!-- Left Speaker Driver -->
+  <circle cx="110" cy="200" r="32" fill="#0f172a" stroke="#475569" stroke-width="2" />
+  <circle cx="110" cy="200" r="26" fill="url(#coneGrad)" />
+  <circle cx="110" cy="200" r="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+  <circle cx="110" cy="200" r="6" fill="#38bdf8" />
+
+  <!-- Center Metallic Volume Dial with RGB Glow Ring -->
+  <circle cx="200" cy="200" r="30" fill="none" stroke="url(#rgbRing)" stroke-width="4" />
+  <circle cx="200" cy="200" r="24" fill="#1e293b" stroke="#475569" stroke-width="2" />
+  <!-- Center Notch / Dial Pointer -->
+  <rect x="198" y="180" width="4" height="10" rx="2" fill="#38bdf8" />
+  <!-- Bluetooth Logo inside dial -->
+  <path d="M 198 195 L 202 199 L 200 201 L 200 197 L 202 199 L 198 203 M 200 195 L 200 203" stroke="#a855f7" stroke-width="1.5" fill="none" stroke-linecap="round" />
+
+  <!-- Right Speaker Driver -->
+  <circle cx="290" cy="200" r="32" fill="#0f172a" stroke="#475569" stroke-width="2" />
+  <circle cx="290" cy="200" r="26" fill="url(#coneGrad)" />
+  <circle cx="290" cy="200" r="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+  <circle cx="290" cy="200" r="6" fill="#38bdf8" />
+
+  <!-- Bottom RGB Underglow Strip -->
+  <rect x="70" y="246" width="260" height="4" rx="2" fill="url(#rgbRing)" />
+
+  <!-- Top Badges / Buttons -->
+  <rect x="160" y="160" width="22" height="6" rx="3" fill="#334155" />
+  <rect x="218" y="160" width="22" height="6" rx="3" fill="#334155" />
+
+  <!-- Label -->
+  <text x="200" y="278" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#94a3b8" text-anchor="middle" letter-spacing="1.5">PRO GAMING SOUNDBAR • BLUETOOTH 5.3</text>
+</svg>
