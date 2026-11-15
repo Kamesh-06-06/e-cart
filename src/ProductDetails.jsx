@@ -8,6 +8,7 @@ import Toast from "./components/Toast";
 import QuickViewModal from "./components/QuickViewModal";
 import ScrollToTop from "./components/ScrollToTop";
 import ProductCard from "./components/ProductCard";
+import defaultIcon from "./assets/eCart-icon.PNG";
 
 function ProductDetails() {
   const { id } = useParams();
@@ -152,7 +153,7 @@ function ProductDetails() {
                   alt={product.name}
                   onError={(e) => {
                     e.currentTarget.onerror = null;
-                    e.currentTarget.src = "/src/assets/eCart-icon.PNG";
+                    e.currentTarget.src = defaultIcon;
                   }}
                   className={`w-full h-full object-contain transition-transform duration-500 ${
                     imageZoom ? "scale-115" : "scale-100"

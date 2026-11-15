@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Toast from "./components/Toast";
 import ScrollToTop from "./components/ScrollToTop";
+import defaultIcon from "./assets/eCart-icon.PNG";
 
 // Normalizes order objects from any historical or current format
 function normalizeOrder(order, index) {

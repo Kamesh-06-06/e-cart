@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Toast from "./components/Toast";
 import ScrollToTop from "./components/ScrollToTop";
+import defaultIcon from "./assets/eCart-icon.PNG";
 
 function Cart() {
   const {
@@ -195,7 +196,7 @@ function Cart() {
                       alt={item.name}
                       onError={(e) => {
                         e.currentTarget.onerror = null;
-                        e.currentTarget.src = "/src/assets/eCart-icon.PNG";
+                        e.currentTarget.src = defaultIcon;
                       }}
                       className="w-full h-full object-contain group-hover:scale-105 transition-transform"
                     />

@@ -1,6 +1,7 @@
 import { useContext, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../CartContext";
+import defaultIcon from "../assets/eCart-icon.PNG";
 
 export default function QuickViewModal() {
   const { quickViewProduct, closeQuickView, addToCart, isInWishlist, toggleWishlist } =
@@ -71,7 +72,7 @@ export default function QuickViewModal() {
             alt={product.name}
             onError={(e) => {
               e.currentTarget.onerror = null;
-              e.currentTarget.src = "/src/assets/eCart-icon.PNG";
+              e.currentTarget.src = defaultIcon;
             }}
             className="w-full max-h-72 object-contain hover:scale-105 transition-transform duration-300"
           />

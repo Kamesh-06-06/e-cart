@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { CartContext } from "../CartContext";
+import defaultIcon from "../assets/eCart-icon.PNG";
 
 export default function ProductCard({ product }) {
   const { addToCart, isInWishlist, toggleWishlist, openQuickView } =
@@ -83,7 +84,7 @@ export default function ProductCard({ product }) {
           loading="lazy"
           onError={(e) => {
             e.currentTarget.onerror = null;
-            e.currentTarget.src = "/src/assets/eCart-icon.PNG";
+            e.currentTarget.src = defaultIcon;
           }}
           className="w-full h-full object-contain p-2 group-hover:scale-108 transition-transform duration-500 ease-out"
         />
