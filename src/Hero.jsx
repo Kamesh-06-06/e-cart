@@ -8,18 +8,18 @@ import img3 from "./assets/img2.png";
 function Hero() {
   const slides = [
     {
-      image: img1,
-      primaryLink: "/product?category=Audio",
-      primaryText: "Shop Now",
-      secondaryLink: "/product",
-      secondaryText: "Explore Products",
-    },
-    {
       image: img2,
       primaryLink: "/product?category=Wearables",
       primaryText: "Shop Now",
       secondaryLink: "/trends",
       secondaryText: "Explore Deals",
+    },
+    {
+      image: img1,
+      primaryLink: "/product?category=Audio",
+      primaryText: "Shop Now",
+      secondaryLink: "/product",
+      secondaryText: "Explore Products",
     },
     {
       image: img3,
