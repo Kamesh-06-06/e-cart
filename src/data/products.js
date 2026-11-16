@@ -684,12 +684,12 @@ export const CATEGORIES = [
     count: PRODUCTS.length,
   },
   {
-    id: "Accessories",
-    name: "OTG, USB Hubs & Accessories",
-    icon: "bi-usb-symbol",
-    description: "Fast OTG adapters, powered USB hubs & docks",
-    image: usbHubImg,
-    count: PRODUCTS.filter((p) => p.category === "Accessories").length,
+    id: "Wearables",
+    name: "Wearables & Smartwatches",
+    icon: "bi-smartwatch",
+    description: "Smartwatches, fitness bands, and monitors",
+    image: smartwatch,
+    count: PRODUCTS.filter((p) => p.category === "Wearables").length,
   },
   {
     id: "Audio",
@@ -699,14 +699,7 @@ export const CATEGORIES = [
     image: btSpeakerImg,
     count: PRODUCTS.filter((p) => p.category === "Audio").length,
   },
-  {
-    id: "Wearables",
-    name: "Wearables & Smartwatches",
-    icon: "bi-smartwatch",
-    description: "Smartwatches, fitness bands, and monitors",
-    image: smartwatch,
-    count: PRODUCTS.filter((p) => p.category === "Wearables").length,
-  },
+
   {
     id: "Storage",
     name: "Storage & USB Drives",
@@ -714,6 +707,14 @@ export const CATEGORIES = [
     description: "High-speed pendrives & flash memory",
     image: pendrive,
     count: PRODUCTS.filter((p) => p.category === "Storage").length,
+  },
+  {
+    id: "Accessories",
+    name: "OTG, USB Hubs & Accessories",
+    icon: "bi-usb-symbol",
+    description: "Fast OTG adapters, powered USB hubs & docks",
+    image: usbHubImg,
+    count: PRODUCTS.filter((p) => p.category === "Accessories").length,
   },
 ];
 

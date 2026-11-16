@@ -69,65 +69,6 @@ function App() {
         <Hero />
 
         {/* Trust & Value Proposition Banners */}
-        <section className="bg-white border-b border-gray-100 py-6 sm:py-8 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
-            <div className="flex items-center gap-3.5 p-3 rounded-2xl hover:bg-gray-50 transition">
-              <div className="w-12 h-12 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center text-2xl shrink-0">
-                <i className="bi bi-truck"></i>
-              </div>
-              <div>
-                <h4 className="font-bold text-xs sm:text-sm text-gray-900">
-                  Free Express Shipping
-                </h4>
-                <p className="text-[11px] sm:text-xs text-gray-400">
-                  On all orders over ₹999
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3.5 p-3 rounded-2xl hover:bg-gray-50 transition">
-              <div className="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-2xl shrink-0">
-                <i className="bi bi-shield-check"></i>
-              </div>
-              <div>
-                <h4 className="font-bold text-xs sm:text-sm text-gray-900">
-                  1-Year Brand Warranty
-                </h4>
-                <p className="text-[11px] sm:text-xs text-gray-400">
-                  100% genuine guaranteed
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3.5 p-3 rounded-2xl hover:bg-gray-50 transition">
-              <div className="w-12 h-12 rounded-2xl bg-purple-50 text-purple-600 flex items-center justify-center text-2xl shrink-0">
-                <i className="bi bi-arrow-repeat"></i>
-              </div>
-              <div>
-                <h4 className="font-bold text-xs sm:text-sm text-gray-900">
-                  7 Days Easy Replacement
-                </h4>
-                <p className="text-[11px] sm:text-xs text-gray-400">
-                  Hassle-free return policy
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3.5 p-3 rounded-2xl hover:bg-gray-50 transition">
-              <div className="w-12 h-12 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center text-2xl shrink-0">
-                <i className="bi bi-headset"></i>
-              </div>
-              <div>
-                <h4 className="font-bold text-xs sm:text-sm text-gray-900">
-                  24/7 Dedicated Support
-                </h4>
-                <p className="text-[11px] sm:text-xs text-gray-400">
-                  Live phone & email assistance
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Featured Categories Section */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
@@ -217,7 +158,9 @@ function App() {
                 Save Up To 45% On Next-Gen Smartwatches
               </h2>
               <p className="mt-3 text-sm sm:text-base text-blue-100 leading-relaxed">
-                Upgrade your wrist with high-precision biometrics, AMOLED displays, and extended battery endurance before the deal expires.
+                Upgrade your wrist with high-precision biometrics, AMOLED
+                displays, and extended battery endurance before the deal
+                expires.
               </p>
 
               {/* Countdown Timer Blocks */}
@@ -297,7 +240,65 @@ function App() {
             </div>
           </div>
         </section>
+        <section className="bg-white border-b border-gray-100 py-6 sm:py-8 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+            <div className="flex items-center gap-3.5 p-3 rounded-2xl hover:bg-gray-50 transition">
+              <div className="w-12 h-12 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center text-2xl shrink-0">
+                <i className="bi bi-truck"></i>
+              </div>
+              <div>
+                <h4 className="font-bold text-xs sm:text-sm text-gray-900">
+                  Free Express Shipping
+                </h4>
+                <p className="text-[11px] sm:text-xs text-gray-400">
+                  On all orders over ₹999
+                </p>
+              </div>
+            </div>
 
+            <div className="flex items-center gap-3.5 p-3 rounded-2xl hover:bg-gray-50 transition">
+              <div className="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-2xl shrink-0">
+                <i className="bi bi-shield-check"></i>
+              </div>
+              <div>
+                <h4 className="font-bold text-xs sm:text-sm text-gray-900">
+                  1-Year Brand Warranty
+                </h4>
+                <p className="text-[11px] sm:text-xs text-gray-400">
+                  100% genuine guaranteed
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-3.5 p-3 rounded-2xl hover:bg-gray-50 transition">
+              <div className="w-12 h-12 rounded-2xl bg-purple-50 text-purple-600 flex items-center justify-center text-2xl shrink-0">
+                <i className="bi bi-arrow-repeat"></i>
+              </div>
+              <div>
+                <h4 className="font-bold text-xs sm:text-sm text-gray-900">
+                  7 Days Easy Replacement
+                </h4>
+                <p className="text-[11px] sm:text-xs text-gray-400">
+                  Hassle-free return policy
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-3.5 p-3 rounded-2xl hover:bg-gray-50 transition">
+              <div className="w-12 h-12 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center text-2xl shrink-0">
+                <i className="bi bi-headset"></i>
+              </div>
+              <div>
+                <h4 className="font-bold text-xs sm:text-sm text-gray-900">
+                  24/7 Dedicated Support
+                </h4>
+                <p className="text-[11px] sm:text-xs text-gray-400">
+                  Live phone & email assistance
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
         {/* Customer Testimonials Section */}
         <Testimonial />
 
@@ -313,13 +314,17 @@ function App() {
                 Unlock 15% Off Your First Order
               </h2>
               <p className="text-xs sm:text-sm text-gray-400 mt-2">
-                Join our VIP newsletter for private product drops, secret discounts, and early access to tech sales.
+                Join our VIP newsletter for private product drops, secret
+                discounts, and early access to tech sales.
               </p>
 
               {newsletterSubscribed ? (
                 <div className="mt-6 p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-sm font-semibold flex items-center justify-center gap-2">
                   <i className="bi bi-check-circle-fill"></i>
-                  <span>You're subscribed! Use coupon code <strong>ECART15</strong> at checkout.</span>
+                  <span>
+                    You're subscribed! Use coupon code <strong>ECART15</strong>{" "}
+                    at checkout.
+                  </span>
                 </div>
               ) : (
                 <form

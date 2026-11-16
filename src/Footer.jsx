@@ -31,7 +31,7 @@ function Footer() {
                 <i className="bi bi-instagram"></i>
               </a>
               <a
-                href="https://linkedin.com/in/kameshkamalakannan"
+                href="https://linkedin.com/in/kamesh-kamalakannan"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
